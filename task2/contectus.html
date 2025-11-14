@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contectus</title>
+</head>
+<body>
+    <a href="./">Homepage</a>
+    <br><br>
+    <form action=""">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" placeholder="Name" required><br><br>
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+        <label for="password">Your Password:</label>
+        <input type="password" name="password" id="password" placeholder="Password" required><br><br>
+        <select name="country" id="country">
+            <option value="EG">Egypt</option>
+            <option value="JP">Japan</option>
+            <option value="RU">Russia</option>
+        </select>
+        <br><br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" required>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" required>
+        <br><br>
+        <label for="playsport">sport</label>
+        <input type="checkbox" name="habit" id="playsport">
+        <label for="readbooks">reading</label>
+        <input type="checkbox" name="habit" id="readbooks">
+        <br><br>
+        <label for="message">message</label>
+        <textarea name="message" id="message"></textarea>
+        <br><br>
+        <button type="submit">submit</button>
+        <button type="reset">clear</button>    
+    </form>
+    <br>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Saleh</td>
+                    <td>20</td>
+                    <td>Egypt</td>
+                </tr>
+                <tr>
+                    <td>maxen</td>
+                    <td>20</td>
+                    <td>Japan</td>
+                </tr>
+                <tr>
+                    <td>Jack</td>
+                    <td>26</td>
+                    <td>UK</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">end of table</td>
+                </tr>
+            </tfoot>
+        </table>
+</body>
+</html>
