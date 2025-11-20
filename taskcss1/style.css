@@ -2,7 +2,7 @@
     border: 6px solid black;
     display: flex;
     justify-content: space-between;
-    width: 86%;
+    width: 1300px;
     padding: 20px;
     margin: 20px;
 
@@ -14,7 +14,7 @@
     
 }
 .blue h1{
-    width: 90%;
+    width: 91%;
     margin-left: 14px;
     border-bottom: 6px dashed blue;;
 }
@@ -43,7 +43,7 @@
     margin-top: 10px;
 }
 .red h1{
-    width: 90%;
+    width: 91%;
     margin-left: 14px;
     border-bottom: 6px solid red;
 }
