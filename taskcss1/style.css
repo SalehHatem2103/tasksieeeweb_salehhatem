@@ -1,0 +1,56 @@
+.f{
+    border: 6px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 86%;
+    padding: 20px;
+    margin: 20px;
+
+}
+.blue{
+    border: 6px dashed rgb(0, 0, 255);
+    width: 400px;
+    height: 220px;
+    
+}
+.blue h1{
+    width: 90%;
+    margin-left: 14px;
+    border-bottom: 6px dashed blue;;
+}
+.blue ol{
+    padding-left: 32px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.blue p{
+    margin-left: 16px;
+    width: 90%;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: rgba(255, 170, 0, 0.926);
+}
+
+.red{
+    border: 6px solid rgb(255, 0, 0);
+    width: 400px;
+    height: 220px;
+    
+}
+.red ol{
+    padding-left: 32px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.red h1{
+    width: 90%;
+    margin-left: 14px;
+    border-bottom: 6px solid red;
+}
+.red p{
+    margin-left: 16px;
+    width: 90%;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: rgba(255, 170, 0, 0.926);
+}
