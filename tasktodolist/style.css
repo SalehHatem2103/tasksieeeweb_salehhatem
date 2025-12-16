@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(153, 153, 153, 0.533);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(51, 51, 51);
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+#task-input {
+    flex: 1;
+    padding: 15px 20px;
+    border: 2px solid rgb(224, 224, 224);
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#task-input:focus {
+    border-color: rgb(102, 126, 234);
+}
+
+#add-btn {
+    padding: 15px 30px;
+    background-color: rgb(102, 126, 234);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#add-btn:hover {
+    background-color: rgb(85, 104, 211);
+}
+
+#task-list {
+    list-style: none;
+}
+
+.task-item {
+    background-color: rgb(248, 249, 250);
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.task-text {
+    flex: 1;
+    color: #333;
+    font-size: 16px;
+}
+
+.task-item.completed .task-text {
+    text-decoration: line-through;
+    color: rgb(156, 152, 152);
+}
+
+.task-item.completed {
+    border-left: 6px solid rgb(126, 186, 140);
+    background-color: rgb(212, 237, 218);
+}
+
+.task-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.btn-done {
+    background-color: rgb(40, 167, 69);
+    color: white;
+}
+
+.btn-done:hover {
+    background-color: rgb(33, 136, 56);
+}
+
+.btn-undo {
+    background-color: rgb(23, 162, 184);
+    color: white;
+}
+
+.btn-undo:hover {
+    background-color: rgb(19, 132, 150);
+}
+
+.btn-delete {
+    background-color: rgb(220, 53, 69);
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: rgb(200, 35, 51);
+}
+
+.empty-message {
+    text-align: center;
+    color: gray;
+    padding: 40px 20px;
+    font-size: 18px;
+}
